@@ -1,0 +1,12 @@
+.photoGrid {
+    padding: 0
+}
+.photoGrid .item {
+    float: left;
+    margin: 4px
+}
+.photoGrid .item img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%
+}

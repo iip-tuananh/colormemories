@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230.805" height="224.668" viewBox="0 0 230.805 224.668">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#67b292"/>
+      <stop offset="1" stop-color="#38946c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Subtraction_25" x="28.74" y="0" width="202.065" height="185.467" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#38946c" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ab394"/>
+      <stop offset="1" stop-color="#38946c" stop-opacity="0.149"/>
+    </linearGradient>
+    <filter id="ios-add" x="0" y="167.928" width="56.74" height="56.74" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#3fb481" flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_26948" data-name="Group 26948" transform="translate(12.5 8.5)">
+    <g transform="matrix(1, 0, 0, 1, -12.5, -8.5)" filter="url(#Subtraction_25)">
+      <path id="Subtraction_25-2" data-name="Subtraction 25" d="M0,148.314H0V121.577H.249c25.7,0,46.614-21.16,46.614-47.168S25.952,27.241.249,27.241H0V0A72.976,72.976,0,0,1,14.77,1.507,72.3,72.3,0,0,1,28.526,5.827a73.043,73.043,0,0,1,12.449,6.838A74,74,0,0,1,51.821,21.72,74.529,74.529,0,0,1,60.77,32.7a74.409,74.409,0,0,1,6.757,12.6,74.415,74.415,0,0,1,4.27,13.92,75.551,75.551,0,0,1,1.489,14.945A75.55,75.55,0,0,1,71.8,89.1a74.4,74.4,0,0,1-4.27,13.92,74.418,74.418,0,0,1-6.757,12.6,74.526,74.526,0,0,1-8.949,10.975,74.027,74.027,0,0,1-10.846,9.055,72.975,72.975,0,0,1-12.449,6.837,72.262,72.262,0,0,1-13.756,4.321A72.981,72.981,0,0,1,0,148.314Z" transform="matrix(-0.59, 0.81, -0.81, -0.59, 211.31, 95.68)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -12.5, -8.5)" filter="url(#ios-add)">
+      <path id="ios-add-2" data-name="ios-add" d="M42.48,24.61H29.06V11.19a2.225,2.225,0,0,0-4.45,0V24.61H11.19a2.225,2.225,0,0,0,0,4.45H24.61V42.48a2.225,2.225,0,0,0,4.45,0V29.06H42.48a2.225,2.225,0,1,0,0-4.45Z" transform="translate(3.54 164.46)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

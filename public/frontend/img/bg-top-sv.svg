@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1896.119" height="490.582" viewBox="0 0 1896.119 490.582">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#67b292"/>
+      <stop offset="1" stop-color="#38946c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Subtraction_25" x="1716.973" y="0" width="179.146" height="172.03" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#38946c" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ab394"/>
+      <stop offset="1" stop-color="#38946c" stop-opacity="0.149"/>
+    </linearGradient>
+    <filter id="ios-add" x="204.12" y="15.637" width="92.438" height="92.438" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#3fb481" flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_1" x="1600.87" y="282.241" width="79" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" y1="1" y2="0" xlink:href="#linear-gradient"/>
+    <filter id="Subtraction_25-2" x="0" y="265.913" width="202.065" height="185.467" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-4"/>
+      <feFlood flood-color="#38946c" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ios-add-2" x="170.065" y="433.842" width="56.74" height="56.74" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-5"/>
+      <feFlood flood-color="#3fb481" flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Slider" transform="translate(3.5 -140.343)">
+    <g id="Group_27012" data-name="Group 27012" transform="translate(16 179.04)">
+      <g transform="matrix(1, 0, 0, 1, -19.5, -38.7)" filter="url(#Subtraction_25)">
+        <path id="Subtraction_25-3" data-name="Subtraction 25" d="M0,63.584H0V52.122H.107A20.127,20.127,0,0,0,20.091,31.9,20.127,20.127,0,0,0,.107,11.679H0V0A31.286,31.286,0,0,1,6.332.646,31,31,0,0,1,12.23,2.5,31.314,31.314,0,0,1,17.567,5.43a31.723,31.723,0,0,1,4.65,3.882,31.952,31.952,0,0,1,3.836,4.705,31.9,31.9,0,0,1,2.9,5.4,31.9,31.9,0,0,1,1.831,5.968,32.39,32.39,0,0,1,.638,6.407A32.389,32.389,0,0,1,30.78,38.2a31.894,31.894,0,0,1-1.831,5.968,31.9,31.9,0,0,1-2.9,5.4,31.951,31.951,0,0,1-3.836,4.705,31.736,31.736,0,0,1-4.65,3.882,31.285,31.285,0,0,1-5.337,2.931,30.98,30.98,0,0,1-5.9,1.852A31.288,31.288,0,0,1,0,63.584Z" transform="matrix(-0.59, 0.81, -0.81, -0.59, 1841.5, 80.99)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.5, -38.7)" filter="url(#ios-add)">
+        <path id="ios-add-3" data-name="ios-add" d="M24.383,11.382H14.62V1.619a1.619,1.619,0,0,0-3.238,0v9.763H1.619a1.619,1.619,0,0,0,0,3.238h9.763v9.763a1.619,1.619,0,0,0,3.238,0V14.62h9.763a1.619,1.619,0,1,0,0-3.238Z" transform="matrix(0.81, -0.59, 0.59, 0.81, 234.18, 53.98)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.5, -38.7)" filter="url(#Polygon_1)">
+        <path id="Polygon_1-2" data-name="Polygon 1" d="M18,3.784a3,3,0,0,1,5,0l14.92,22.561A3,3,0,0,1,35.419,31H5.581a3,3,0,0,1-2.5-4.655Z" transform="matrix(0, 1, -1, 0, 1655.87, 298.24)" fill="#fff" opacity="0.79"/>
+      </g>
+      <g id="Group_26941" data-name="Group 26941" transform="translate(0 235.717)">
+        <g transform="matrix(1, 0, 0, 1, -19.5, -274.41)" filter="url(#Subtraction_25-2)">
+          <path id="Subtraction_25-4" data-name="Subtraction 25" d="M0,0H0V26.738H.25c25.7,0,46.614,21.16,46.614,47.168S25.952,121.073.249,121.073H0v27.242a72.977,72.977,0,0,0,14.77-1.507,72.3,72.3,0,0,0,13.756-4.321,73.044,73.044,0,0,0,12.449-6.838,74,74,0,0,0,10.846-9.055,74.528,74.528,0,0,0,8.949-10.975,74.409,74.409,0,0,0,6.757-12.6A74.414,74.414,0,0,0,71.8,89.1a75.551,75.551,0,0,0,1.489-14.945A75.549,75.549,0,0,0,71.8,59.212a74.394,74.394,0,0,0-4.27-13.92,74.417,74.417,0,0,0-6.757-12.6A74.526,74.526,0,0,0,51.822,21.72a74.026,74.026,0,0,0-10.846-9.055A72.976,72.976,0,0,0,28.526,5.828,72.262,72.262,0,0,0,14.77,1.507,72.98,72.98,0,0,0,0,0Z" transform="matrix(0.59, 0.81, -0.81, 0.59, 139.49, 274.41)" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -19.5, -274.41)" filter="url(#ios-add-2)">
+          <path id="ios-add-4" data-name="ios-add" d="M11.19,24.61H24.61V11.19a2.225,2.225,0,0,1,4.45,0V24.61H42.48a2.225,2.225,0,0,1,0,4.45H29.06V42.48a2.225,2.225,0,0,1-4.45,0V29.06H11.19a2.225,2.225,0,1,1,0-4.45Z" transform="translate(173.6 430.38)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

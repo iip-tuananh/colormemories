@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5dc296"/>
+      <stop offset="1" stop-color="#114e34"/>
+    </linearGradient>
+    <filter id="Ellipse_57" x="0" y="0" width="85" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="calling" transform="translate(7.5 5.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -5.5)" filter="url(#Ellipse_57)">
+      <g id="Ellipse_57-2" data-name="Ellipse 57" transform="translate(7.5 5.5)" stroke="#38946c" stroke-width="1" fill="url(#linear-gradient)">
+        <circle cx="35" cy="35" r="35" stroke="none"/>
+        <circle cx="35" cy="35" r="34.5" fill="none"/>
+      </g>
+    </g>
+    <path id="phone-handset-solid" d="M12.111,16.362A15.9,15.9,0,0,0,17.885,20.1l2.942-2.341a.523.523,0,0,1,.593,0l5.462,3.519a1.561,1.561,0,0,1,.258,2.482l-2.56,2.528a3.121,3.121,0,0,1-2.833.835A27.383,27.383,0,0,1,8.365,20.1,26.368,26.368,0,0,1,1.131,6.967,2.95,2.95,0,0,1,1.99,4.2l2.653-2.56a1.561,1.561,0,0,1,2.435.25l3.636,5.392a.492.492,0,0,1,0,.585l-2.4,2.88a15.412,15.412,0,0,0,3.793,5.619Z" transform="translate(21.149 21.008)" fill="#fff"/>
+  </g>
+</svg>

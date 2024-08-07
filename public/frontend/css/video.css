@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* ------------------------------------------------------
+Common :: Variables
+------------------------------------------------------ */
+/* Space */
+/* Headline */
+/* Tables */
+/* ------------------------------------------------------
+Common :: Functions
+------------------------------------------------------ */
+/*--------------------------------------------------------------
+# Custom Css
+--------------------------------------------------------------*/
+.archive-description h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--primarycolor); }
+
+#video-menu {
+  padding: 0;
+  margin: 0 0 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center; }
+  #video-menu li:not(:last-child) {
+    margin-right: 40px; }
+  #video-menu li.current-menu-item a, #video-menu li:hover a {
+    background: #fff;
+    box-shadow: 0px 13px 16px rgba(56, 148, 108, 0.12); }
+  #video-menu a {
+    font-weight: normal;
+    color: var(--primarycolor);
+    padding: 16px 35px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative; }
+    #video-menu a:after {
+      content: attr(title);
+      font-size: 14px;
+      position: absolute;
+      top: 10px;
+      right: 10px; }
+
+.content-wrapper {
+  position: relative; }
+  .content-wrapper .img0 {
+    width: 87.01px;
+    height: 126.68px;
+    top: 3%;
+    right: 0;
+    position: absolute; }
+    .content-wrapper .img0:before {
+      background: url("../img/icon/ic-dotted.svg") center no-repeat;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      position: absolute; }
+  .content-wrapper .img1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 0; }
+    .content-wrapper .img1:before {
+      background: url("../img/icon/ic-cong-before.svg") center no-repeat;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      position: absolute; }
+  .content-wrapper .img2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 74%;
+    right: 0; }
+    .content-wrapper .img2:before {
+      background: url("../img/icon/ic-cong-after.svg") center no-repeat;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      position: absolute; }
+  .content-wrapper .img3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 14%;
+    right: 0; }
+    .content-wrapper .img3:before {
+      background: url("../img/icon/ic-cong-after.svg") center no-repeat;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      position: absolute; }
+  .content-wrapper .img4 {
+    width: 29.167vw;
+    height: 58.056vw;
+    position: absolute;
+    top: 60%;
+    left: 0; }
+    .content-wrapper .img4:before {
+      content: '';
+      background: url("../img/icon/ic-circle-1.svg") center no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+  .content-wrapper .img5 {
+    width: 29.167vw;
+    height: 58.056vw;
+    position: absolute;
+    top: -2%;
+    left: 0; }
+    .content-wrapper .img5:before {
+      content: '';
+      background: url("../img/icon/ic-circle-1.svg") center no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+  .content-wrapper .img6 {
+    position: absolute;
+    width: 29.167vw;
+    height: 58.056vw;
+    top: 34%;
+    right: 0; }
+    .content-wrapper .img6:after {
+      content: '';
+      background: url("../img/ic-circle-2.svg") center no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+  .content-wrapper .content-sidebar-wrap {
+    position: relative;
+    z-index: 1; }
+
+.site-content > .container {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+
+.blog-shortcode.style-2 .post-info .post-info__thumb {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position: relative; }
+  .blog-shortcode.style-2 .post-info .post-info__thumb .img {
+    padding-top: 64.1666667%; }
+  .blog-shortcode.style-2 .post-info .post-info__thumb:before {
+    content: '';
+    background: url("../img/ic-play.svg") center no-repeat;
+    background-size: 56px;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    pointer-events: none;
+    z-index: 9; }
+.blog-shortcode.style-2 .post-info .post-info__title {
+  font-size: 16px; }
+
+.resultLoadMore {
+  margin-bottom: 40px; }
+
+.related-permalink {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .related-permalink a {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid var(--primarycolor);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 18px; }
+    @media only screen and (max-width: 576px) {
+      .related-permalink a {
+        font-size: 15px;
+        height: 40px;
+        line-height: 42px;
+        border-radius: 8px; } }
+    .related-permalink a svg path {
+      transition: all 0.35s ease-in-out; }
+    .related-permalink a:hover {
+      background: var(--primarycolor);
+      color: #FFF; }
+      .related-permalink a:hover svg path {
+        fill: #FFF; }
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media only screen and (min-width: 576px) {
+  .resultLoadMore, .related-permalink {
+    margin-bottom: 60px; } }
+@media only screen and (min-width: 850px) {
+  .archive-description h1 {
+    font-size: 35px; } }
+@media only screen and (min-width: 1200px) {
+  .blog-shortcode.style-2 .post-info .post-info__thumb {
+    margin-bottom: 20px; }
+  .blog-shortcode.style-2 .post-info .post-info__title {
+    font-size: 18px; }
+
+  .related-permalink,
+  .resultLoadMore {
+    margin-bottom: 90px; } }
+@media only screen and (min-width: 1400px) {
+  .blog-shortcode.style-2 .post-info .post-info__title {
+    font-size: 22px; }
+
+  .archive-description h1 {
+    font-size: 40px; } }
+
+/*# sourceMappingURL=video.css.map */

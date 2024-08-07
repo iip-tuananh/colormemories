@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5dc296"/>
+      <stop offset="1" stop-color="#114e34"/>
+    </linearGradient>
+    <filter id="Ellipse_57" x="0" y="0" width="85" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="calling" transform="translate(7.5 5.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -5.5)" filter="url(#Ellipse_57)">
+      <g id="Ellipse_57-2" data-name="Ellipse 57" transform="translate(7.5 5.5)" stroke="#38946c" stroke-width="1" fill="url(#linear-gradient)">
+        <circle cx="35" cy="35" r="35" stroke="none"/>
+        <circle cx="35" cy="35" r="34.5" fill="none"/>
+      </g>
+    </g>
+    <g id="mail" transform="translate(21.427 24.813)">
+      <path id="Path_8149" data-name="Path 8149" d="M30.3,7.268H5.038a.9.9,0,0,0-.9.9V9.974a.307.307,0,0,0,.164.218L17.58,17.776a.225.225,0,0,0,.225,0L30.681,10.2c.072-.04.264-.147.337-.2s.177-.113.177-.22V8.167a.9.9,0,0,0-.9-.9Z" transform="translate(-4.14 -7.268)" fill="#f9f6f2"/>
+      <path id="Path_8150" data-name="Path 8150" d="M31.558,12.832a.226.226,0,0,0-.226,0L24.045,17.12a.224.224,0,0,0-.051.346l7.287,7.856a.224.224,0,0,0,.388-.153V13.026a.224.224,0,0,0-.112-.2Z" transform="translate(-4.615 -7.401)" fill="#f9f6f2"/>
+      <path id="Path_8151" data-name="Path 8151" d="M21.478,18.7a.223.223,0,0,0-.278-.041l-2.92,1.719a1.139,1.139,0,0,1-1.127.008l-2.57-1.468a.224.224,0,0,0-.264.03L4.558,28a.224.224,0,0,0,.04.358.875.875,0,0,0,.447.132h25a.225.225,0,0,0,.165-.378Z" transform="translate(-4.148 -7.541)" fill="#f9f6f2"/>
+      <path id="Path_8152" data-name="Path 8152" d="M12.163,17.739a.224.224,0,0,0-.04-.359L4.475,13.012a.224.224,0,0,0-.335.2V24.669a.224.224,0,0,0,.377.164l7.646-7.094Z" transform="translate(-4.14 -7.405)" fill="#f9f6f2"/>
+    </g>
+  </g>
+</svg>

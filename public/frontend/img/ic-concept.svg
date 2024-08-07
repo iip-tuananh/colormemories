@@ -1,0 +1,9 @@
+<svg id="x-diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.369" height="35.371" viewBox="0 0 35.369 35.371">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#67b292"/>
+      <stop offset="1" stop-color="#38946c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_8297" data-name="Path 8297" d="M18.484,2.586a1.127,1.127,0,0,0-1.6,0L10.536,8.941l7.15,7.149,7.15-7.15Zm7.948,7.95-7.15,7.15,7.15,7.15,6.351-6.351a1.126,1.126,0,0,0,0-1.6l-6.351-6.351Zm-1.6,15.9-7.15-7.15-7.15,7.15,6.351,6.351a1.126,1.126,0,0,0,1.6,0l6.351-6.351Zm-15.9-1.6,7.149-7.15-7.149-7.15L2.586,16.889a1.13,1.13,0,0,0,0,1.6L8.94,24.836ZM15.292.994a3.385,3.385,0,0,1,4.788,0l14.3,14.3a3.387,3.387,0,0,1,0,4.788l-14.3,14.3a3.387,3.387,0,0,1-4.786,0L.994,20.078a3.385,3.385,0,0,1,0-4.786Z" transform="translate(-0.003 -0.002)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

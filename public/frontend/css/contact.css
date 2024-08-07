@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* ------------------------------------------------------
+Common :: Variables
+------------------------------------------------------ */
+/* Space */
+/* Headline */
+/* Tables */
+/* ------------------------------------------------------
+Common :: Functions
+------------------------------------------------------ */
+/*--------------------------------------------------------------
+# Custom Css
+--------------------------------------------------------------*/
+body {
+  background: #FFF; }
+  body .site-content {
+    position: relative; }
+    body .site-content:before {
+      content: '';
+      background: url("../img/icon/ic-dotted.svg") center no-repeat;
+      width: 87.01px;
+      height: 126.68px;
+      top: 0;
+      left: 0;
+      position: absolute; }
+
+.contact-heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: var(--primarycolor); }
+
+.contact-box .contact-information {
+  font-weight: 300;
+  padding: 0;
+  margin: 0 0 30px;
+  list-style-type: none; }
+  .contact-box .contact-information li {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .contact-box .contact-information li.contact-address {
+      background: url("../img/ic-address.svg") left 10px no-repeat;
+      background-size: 21px; }
+    .contact-box .contact-information li.contact-phone {
+      background: url("../img/ic-phone.svg") left 15px no-repeat;
+      background-size: 21px; }
+    .contact-box .contact-information li.contact-email {
+      background: url("../img/ic-email.svg") left 18px no-repeat;
+      background-size: 21px; }
+.contact-box .contact-phone .info {
+  font-weight: 500; }
+.contact-box .widget_social li {
+  margin-right: 25px; }
+
+.contact-top {
+  margin-bottom: 40px; }
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media only screen and (min-width: 850px) {
+  .contact-heading {
+    font-size: 35px; }
+
+  .contact-top {
+    margin-bottom: 60px; } }
+@media only screen and (min-width: 1400px) {
+  .contact-heading {
+    font-size: 40px; } }
+
+/*# sourceMappingURL=contact.css.map */
