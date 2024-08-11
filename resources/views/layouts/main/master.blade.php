@@ -47,6 +47,9 @@
       <link rel="shortcut icon" href="{{url(''.$setting->favicon)}}" type="image/x-icon">
       <link rel="icon" href="{{url(''.$setting->favicon)}}" type="image/x-icon">
       <meta name="csrf-token" content="{{ csrf_token() }}" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
       <script>
          var primarycolor = '#304a31';
              secondarycolor = '#828282';
@@ -75,8 +78,8 @@
       <script type="text/javascript" src="{{asset('frontend/js/jquery.bind-first-0.2.3.min.js')}}" ></script>
       
       @yield('css')
-      <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0&appId=936856741398296" nonce="rQvJV3PL"></script>
+      {{-- <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0&appId=936856741398296" nonce="rQvJV3PL"></script> --}}
  </head>
    <body data-rsssl=1 class="home page-template page-template-front-page page-template-front-page-php page page-id-41 _masterslider _msp_version_3.6.1 no-sidebar"  >
       <div id="page" class="site">

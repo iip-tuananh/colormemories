@@ -61,15 +61,6 @@ Liên hệ với chúng tôi
 											{{$setting->email}}                                                 </span>
 										</li>
 									 </ul>
-									 <div class="widget_social">
-										<ul>
-										   <li class="icon_social icon_facebook"><a title="Facebook" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-facebook.svg')}}" alt="Facebook"></a></li>
-										   <li class="icon_social icon_youtube"><a title="youtube" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-youtube.svg')}}" alt="youtube"></a></li>
-										   <li class="icon_social icon_instagram"><a title="Instagram" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-instagram.svg')}}" alt="Instagram"></a></li>
-										   <li class="icon_social icon_tiktok"><a title="Tiktok" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-tiktok.svg')}}" alt="Tiktok"></a></li>
-										   <li class="icon_social icon_zalo"><a title="Zalo" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-zalo.svg')}}" alt="Zalo"></a></li>
-										</ul>
-									 </div>
 								  </div>
 							   </div>
 							   <div class="col-lg-6">

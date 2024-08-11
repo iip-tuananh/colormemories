@@ -96,16 +96,18 @@
          <div class="main-footer">
             <div class="wrap">
                <div class="row">
-                  <div class="ft-column col-md-6">
+                  <div class="ft-column col-md-4">
                      <section id="custom_html-2" class="widget_text widget widget_custom_html">
                         <h3 class="widget-title">Chỉ đường</h3>
                         <div class="textwidget custom-html-widget">{!!$setting->iframe_map!!}</div>
                      </section>
                   </div>
-                  <div class="ft-column col-md-6">
+                  <div class="ft-column col-md-4">
                      <section id="custom_html-3" class="widget_text widget widget_custom_html">
                         <h3 class="widget-title">Fanpage</h3>
-                        <div class="textwidget custom-html-widget" style="width:100%;"><div  class="fb-page" data-href="https://www.facebook.com/profile.php?id=61560913689302" data-tabs="timeline" data-width="500" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61560913689302" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61560913689302">Color Memories - Kỷ yếu sắc màu</a></blockquote></div></div>
+                        <div class="textwidget custom-html-widget" style="width:100%;">
+                           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F61560913689302%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=985374385649893" width="440" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" title="Fanpage Chụp  kỷ yếu Color Memories"></iframe>
+                        </div>
                      </section>
                   </div>
                </div>
@@ -115,19 +117,8 @@
          <div class="site-info">
             <div class="wrap">
                <div class="row align-items-center">
-                  <div class="col-md-7 text-lg-left text-center">
+                  <div class="col-md-12 text-lg-left text-center">
                      <p id="copyright">Coppyright © COLOR MEMERIES | 2024</p>
-                  </div>
-                  <div class="col-md-5">
-                     <div class="widget_social mb-0">
-                        <ul class="text-lg-right text-center">
-                           <li class="icon_social icon_facebook"><a title="Facebook" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-facebook.svg')}}" alt="Facebook" width="40" height="40"></a></li>
-                           <li class="icon_social icon_youtube"><a title="youtube" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-youtube.svg')}}" alt="youtube" width="40" height="40"></a></li>
-                           <li class="icon_social icon_instagram"><a title="Instagram" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-instagram.svg')}}" alt="Instagram" width="40" height="40"></a></li>
-                           <li class="icon_social icon_tiktok"><a title="Tiktok" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-tiktok.svg')}}" alt="Tiktok" width="40" height="40"></a></li>
-                           <li class="icon_social icon_zalo"><a title="Zalo" href="" rel="nofollow" target="_blank"><img src="{{url('frontend/img/ic-zalo.svg')}}" alt="Zalo" width="40" height="40"></a></li>
-                        </ul>
-                     </div>
                   </div>
                </div>
             </div>

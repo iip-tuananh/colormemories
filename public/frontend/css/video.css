@@ -65,7 +65,7 @@ Common :: Functions
     top: 30%;
     left: 0; }
     .content-wrapper .img1:before {
-      background: url("../img/icon/ic-cong-before.svg") center no-repeat;
+      background: url("../img/ic-cong-before.png") center no-repeat;
       content: '';
       width: 100%;
       height: 100%;
@@ -78,7 +78,7 @@ Common :: Functions
     top: 74%;
     right: 0; }
     .content-wrapper .img2:before {
-      background: url("../img/icon/ic-cong-after.svg") center no-repeat;
+      background: url("../img/ic-cong-after.png") center no-repeat;
       content: '';
       width: 100%;
       height: 100%;
@@ -91,7 +91,7 @@ Common :: Functions
     top: 14%;
     right: 0; }
     .content-wrapper .img3:before {
-      background: url("../img/icon/ic-cong-after.svg") center no-repeat;
+      background: url("../img/icon/ic-cong-after.png") center no-repeat;
       content: '';
       width: 100%;
       height: 100%;

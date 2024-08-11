@@ -133,54 +133,62 @@ Danh sách {{$title}}
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-1.png')}}" alt="Icon"></div>
-                                    <span>Hậu Mãi</span>
+                                    <span>Chất Lượng Ảnh Vượt Trội</span>
                                  </div>
-                                 <div class="bl-bottom">Color Memories luôn sẵn sàng dịch vụ hậu mãi cho mọi khách hàng của mình. Cộng chăm chút và quan tâm đến từng khách hàng để mỗi khi bạn ghé thăm Color Memories là một trải nghiệm thoải mái và tuyệt vời nhất.</div>
+                                 <div class="bl-bottom">Tại Color Memories, chúng tôi cam kết mang đến những bức ảnh kỷ yếu với chất lượng vượt trội. Với trang thiết bị hiện đại và kỹ thuật chụp ảnh tiên tiến, 
+                                    mỗi bức ảnh đều sắc nét, sống động và chân thực. Chúng tôi luôn chú trọng đến từng chi tiết nhỏ nhất để đảm bảo bạn sẽ hài lòng với từng bức ảnh.</div>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6 col-6 mb-5">
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-2.png')}}" alt="Icon"></div>
-                                    <span>Uy Tín</span>
+                                    <span> Đội Ngũ Chuyên Nghiệp và Tận Tâm</span>
                                  </div>
-                                 <div class="bl-bottom">Color Memories luôn uy tín và đảm bảo chất lượng trong từng khâu làm việc. Làm việc đúng giờ, trả ảnh đúng thời gian hẹn và sẵn sàng chỉnh sửa để bộ ảnh trở nên ưng ý nhất.</div>
+                                 <div class="bl-bottom">Đội ngũ nhiếp ảnh gia, chuyên viên trang điểm, làm tóc và tư vấn trang phục của Color Memories đều là những người có kinh nghiệm và tay nghề cao. 
+                                    Chúng tôi luôn làm việc với sự tận tâm, chu đáo và sáng tạo, đảm bảo mỗi khung hình đều hoàn hảo và độc đáo. Sự chuyên nghiệp của chúng tôi giúp bạn có một 
+                                    trải nghiệm chụp ảnh thú vị và thoải mái.</div>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6 col-6 mb-5">
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-3.png')}}" alt="Icon"></div>
-                                    <span> Chất Lượng</span>
+                                    <span>  Sáng Tạo và Ý Tưởng Độc Đáo</span>
                                  </div>
-                                 <div class="bl-bottom">Mỗi bộ ảnh của Color Memories sản xuất luôn được đảm bảo 100% chất lượng ở mọi quy trình. Cộng luôn chăm chút và mong muốn gửi đến khách hàng của mình những sản phẩm tốt nhất.</div>
+                                 <div class="bl-bottom">Color Memories luôn tự hào về khả năng sáng tạo và phát triển những ý tưởng chụp ảnh độc đáo, phù hợp với phong cách và cá tính của từng lớp học. 
+                                    Chúng tôi luôn tìm kiếm những concept mới lạ, đảm bảo mỗi bộ ảnh kỷ yếu đều mang dấu ấn riêng biệt và không bị trùng lặp với bất kỳ ai khác.</div>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6 col-6 mb-5">
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-4.png')}}" alt="Icon"></div>
-                                    <span>Chuyên Nghiệp</span>
+                                    <span>Dịch Vụ Hỗ Trợ Toàn Diện</span>
                                  </div>
-                                 <div class="bl-bottom">"Chuyên nghiệp" là phong cách mà Color Memories luôn hướng đến. Ekip Color Memories luôn tìm tòi, học hỏi, cập nhật xu hướng để cho ra đời những sản phẩm chất lượng.</div>
+                                 <div class="bl-bottom">Chúng tôi cung cấp dịch vụ hỗ trợ toàn diện từ A đến Z, bao gồm trang điểm, làm tóc, tư vấn trang phục và phụ kiện, đến chỉnh sửa ảnh chuyên nghiệp. 
+                                    Đội ngũ của Color Memories luôn sẵn sàng hỗ trợ bạn trong suốt quá trình chụp ảnh, giúp bạn có những bức ảnh đẹp nhất mà không phải lo lắng về bất kỳ khâu nào.</div>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6 col-6 mb-5">
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-5.png')}}" alt="Icon"></div>
-                                    <span>Sáng Tạo</span>
+                                    <span>Kinh Nghiệm và Uy Tín</span>
                                  </div>
-                                 <div class="bl-bottom">Ekip của Color Memories luôn không ngừng sáng tạo và tìm tòi, phát huy hết mình khả năng bản thân để cho ra đời những Concept đẹp - độc - lạ và luôn cập nhật những xu hướng mới.</div>
+                                 <div class="bl-bottom">Với nhiều năm kinh nghiệm trong lĩnh vực chụp ảnh kỷ yếu, Color Memories đã phục vụ hàng ngàn lớp học trên khắp cả nước. Chúng tôi hiểu rõ những mong muốn 
+                                    và nhu cầu của học sinh, từ đó cung cấp những dịch vụ chụp ảnh chất lượng cao và chuyên nghiệp. Sự uy tín của chúng tôi được khẳng định qua những phản hồi tích cực
+                                     và sự hài lòng của khách hàng.</div>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6 col-6 mb-5">
                               <div class="bl-item">
                                  <div class="bl-top">
                                     <div class="bl-icon"><img src="{{url('frontend/img/nb-6.png')}}" alt="Icon"></div>
-                                    <span>Nhiệt Tình</span>
+                                    <span>Giá Cả Hợp Lý và Minh Bạch</span>
                                  </div>
-                                 <div class="bl-bottom">Ở Color Memories, bạn sẽ luôn tìm thấy đội ngũ từ Tư vấn đến Nhiếp ảnh vô cùng năng động, nhiệt huyết và đặc biệt dám “lăn xả” vì bạn để cho ra những bộ ảnh lung linh nhất bất kể địa hình hay thời tiết.</div>
+                                 <div class="bl-bottom">Color Memories cam kết cung cấp dịch vụ với giá cả hợp lý và minh bạch. Chúng tôi luôn đưa ra bảng giá rõ ràng, chi tiết và không có các chi phí ẩn,
+                                    giúp bạn yên tâm lựa chọn dịch vụ mà không lo ngại về vấn đề tài chính. Sự minh bạch và trung thực trong báo giá là tiêu chí hàng đầu của chúng tôi.</div>
                               </div>
                            </div>
                         </div>
