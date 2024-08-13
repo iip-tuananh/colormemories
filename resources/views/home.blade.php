@@ -95,21 +95,21 @@
                            <div class="row">
                               <div class="col-md-4 col-4 mb-md-5 mb-1">
                                  <div class="cs-item">
-                                    <div class="cs-number"><span class="counter" data-count="8"> 0 </span> +</div>
+                                    <div class="cs-number"><span class="counter" data-count="15"> 0 </span> +</div>
                                     <h3 class="cs-title">Năm kinh nghiệm</h3>
                                     <p class="cs-desc d-md-block d-none">Với 8 năm hoạt động trong lĩnh vực chụp ảnh. Color Memories được biết đến với đội ngũ ekip chụp hình chuyên nghiệp, sáng tạo, tận tâm và nhiệt huyết đã đem lại trải nghiệm hài lòng cho khách hàng.</p>
                                  </div>
                               </div>
                               <div class="col-md-4 col-4 mb-md-5 mb-1">
                                  <div class="cs-item">
-                                    <div class="cs-number"><span class="counter" data-count="20"> 0 </span> +</div>
+                                    <div class="cs-number"><span class="counter" data-count="80"> 0 </span> +</div>
                                     <h3 class="cs-title">Nhân viên chuyên nghiệp</h3>
                                     <p class="cs-desc d-md-block d-none">Color Memories có một đội ngũ nhân viên, thợ chụp ảnh và chuyên viên make – up trang điểm đông đảo, nhiệt tình đã có nhiều năm kinh nghiệm làm việc trong nghề.  </p>
                                  </div>
                               </div>
                               <div class="col-md-4 col-4 mb-md-5 mb-1">
                                  <div class="cs-item">
-                                    <div class="cs-number"><span class="counter" data-count="1671"> 0 </span> +</div>
+                                    <div class="cs-number"><span class="counter" data-count="12500"> 0 </span> +</div>
                                     <h3 class="cs-title">Dự án đã thực hiện</h3>
                                     <p class="cs-desc d-md-block d-none">Tên tuổi Color Memories được khẳng định bằng chính các sản phẩm chất lượng, màu sắc riêng biệt, độ bền dài lâu mà khách hàng nhận được. </p>
                                  </div>

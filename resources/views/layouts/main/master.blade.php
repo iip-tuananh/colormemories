@@ -82,6 +82,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0&appId=936856741398296" nonce="rQvJV3PL"></script> --}}
  </head>
    <body data-rsssl=1 class="home page-template page-template-front-page page-template-front-page-php page page-id-41 _masterslider _msp_version_3.6.1 no-sidebar"  >
+      
       <div id="page" class="site">
          @include('layouts.header.index')
          <!-- #masthead -->

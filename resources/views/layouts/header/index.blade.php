@@ -1,3 +1,78 @@
+<nav id="mobilenav" class="d-lg-none">
+   <div class="mobilenav__inner">
+      <div class="h90 ">
+         <div class="menu_close active">
+            <div class="showmenu-cross"><span></span><span></span></div>
+         </div>
+      </div>
+      <div class="menu-mobile-menu-container">
+         <ul id="menu-main" class="mobile-menu">
+            <li id="menu-item-477" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-477">
+               <a href="{{route('home')}}" aria-current="page">Trang Chủ</a>
+            </li>
+
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1116">
+               <a href="">Album</a>
+               <span class="arrow"> <i class="icon-angle-down"></i> </span>
+               <ul class="sub-menu">
+                  @foreach ($categoryhome as $item)
+                  <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1051">
+                     <a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}">{{languageName($item->name)}}</a>
+                  </li>
+                  @endforeach
+                 
+               </ul>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1116">
+               <a href="{{route('khuyenMai')}}">Bảng giá</a>
+               <span class="arrow"> <i class="icon-angle-down"></i> </span>
+               <ul class="sub-menu">
+                  @foreach ($bangiaheader as $item)
+                  <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1051">
+                     <a href="{{route('detailKhuyenmai',['slug'=>$item->slug])}}">{{($item->name)}}</a>
+                  </li>
+                  @endforeach
+                  @if (count($bangiaheader) > 12)
+                  <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1051">
+                     <a href="{{route('khuyenMai')}}">Xem Thêm</a>
+                  </li>
+                  @endif
+               </ul>
+            </li>
+            @foreach ($servicehome as $item)
+            <li class="menu-item menu-item-type-custom menu-item-object-custom {{count($item->services) > 0 ? 'menu-item-has-children' : ''}} menu-item-1116">
+               <a href="{{route('serviceList',['slug'=>$item->slug])}}">{{$item->name}}</a>
+               @if (count($item->services) > 0)
+               <span class="arrow"> <i class="icon-angle-down"></i> </span>
+               <ul class="sub-menu">
+                  @foreach ($item->services as $ser)
+                  <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1051">
+                     <a href="{{route('serviceDetail',['danhmuc'=>$item->slug,'slug'=>$ser->slug])}}">{{$ser->name}}</a>
+                  </li>
+                  @endforeach
+                 
+               </ul>
+               @endif
+            </li>
+            @endforeach
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1116">
+               <a href="">Góc tư vấn</a>
+               <span class="arrow"> <i class="icon-angle-down"></i> </span>
+               <ul class="sub-menu">
+                  @foreach ($blogCate as $item)
+                  <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1051">
+                     <a href="{{route('listCateBlog',['slug'=>$item->slug])}}">{{languageName($item->name)}}</a>
+                  </li>
+                  @endforeach
+                 
+               </ul>
+            </li>
+            <li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="{{route('lienHe')}}">Liên Hệ</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
+
 <header id="masthead" class="site-header header-logo" role="banner"  >
    <div class="container">
       <div class="wrap-head">
