@@ -50,26 +50,7 @@ Danh sách {{$title}}
                         <div class="subheading text-center">
                           {!!$content!!}
                         </div>
-                        <div class="intro-list">
-                           <div class="intro-item">
-                              <h4 class="intro-title">Sản Phẩm Ấn Tượng</h4>
-                              <div class="intro-desc">
-                                 <p style="text-align: justify;">Với sứ mệnh luôn đặt chất lượng lên hàng đầu, Color Memories cam kết tận tâm, tỉ mỉ và chất lượng trong từng khâu làm việc: từ tư vấn, sản xuất đến chỉnh sửa, đóng khung và nhiệt huyết đến cùng cả khi trả ảnh và lắng nghe khách hàng để các sản phẩm được thực hiện bởi 100% công sức nhà Cộng luôn hoàn hảo nhất.</p>
-                              </div>
-                           </div>
-                           <div class="intro-item">
-                              <h4 class="intro-title">Dịch Vụ Hoàn Hảo</h4>
-                              <div class="intro-desc">
-                                 <p style="text-align: justify;">Đồng hành cùng bạn hơn 10 năm làm việc, Color Memories tự tin hiểu rõ sở thích và yêu cầu của từng khách hàng mỗi lần ghé thăm. Chúng tôi với đội ngũ tư vấn tận tâm, nhiệt tình, Ekip chụp ảnh đầy trẻ trung, sáng tạo và chuyên nghiệp hứa hẹn sẽ đem đến cho bạn những trải nghiệm thoải mái và tuyệt vời.</p>
-                              </div>
-                           </div>
-                           <div class="intro-item">
-                              <h4 class="intro-title">Trọn Gói - Ưu Đãi</h4>
-                              <div class="intro-desc">
-                                 <p style="text-align: justify;">Sản phẩm đẹp với giá chụp Ưu đãi thì ngại gì mà không liên hệ ngay hôm nay với Color Memories! Với đa dạng gói chụp, Concept kỷ yếu luôn cập nhật xu hướng mới và đặc biệt những món quà tri ân đầy yêu thương đến từ nhà Color Memories chắc hẳn sẽ khiến bạn phải bất ngờ.</p>
-                              </div>
-                           </div>
-                        </div>
+                        
                         <div class="btn-Intro">
                            <a class="btn-package" href="{{$cateno->avatar}}"> <span>BẢNG GIÁ <span> CHỤP ẢNH KỶ YẾU </span></span></a>
                            <a class="btn-mess" href="{{$setting->facebook}}"> <span>Messenger</span> </a></div>
