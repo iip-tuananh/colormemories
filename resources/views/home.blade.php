@@ -97,7 +97,7 @@
                                  <div class="cs-item">
                                     <div class="cs-number"><span class="counter" data-count="15"> 0 </span> +</div>
                                     <h3 class="cs-title">Năm kinh nghiệm</h3>
-                                    <p class="cs-desc d-md-block d-none">Với 8 năm hoạt động trong lĩnh vực chụp ảnh. Color Memories được biết đến với đội ngũ ekip chụp hình chuyên nghiệp, sáng tạo, tận tâm và nhiệt huyết đã đem lại trải nghiệm hài lòng cho khách hàng.</p>
+                                    <p class="cs-desc d-md-block d-none">Với 15 năm hoạt động trong lĩnh vực chụp ảnh. Color Memories được biết đến với đội ngũ ekip chụp hình chuyên nghiệp, sáng tạo, tận tâm và nhiệt huyết đã đem lại trải nghiệm hài lòng cho khách hàng.</p>
                                  </div>
                               </div>
                               <div class="col-md-4 col-4 mb-md-5 mb-1">
