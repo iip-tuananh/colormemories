@@ -56,7 +56,7 @@
                <div id="dv">
                   <div class="container">
                      <div class="wrap">
-                        <h2 class="heading text-center"><span>DỊCH VỤ TẠI COLOR MEMERIES</span></h2>
+                        <h2 class="heading text-center"><span>DỊCH VỤ TẠI COLOR MEMORIES</span></h2>
                         <p class="dv-description col-lg-6 offset-lg-3 text-center">{{$setting->webname}}</p>
                         <div class="tab-block">
                            <ul class="nav-pills">
