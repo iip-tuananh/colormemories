@@ -250,11 +250,11 @@ class ProductController extends Controller
             'cate' => function ($query) {
                 $query->where('status',1)->limit(5)->select('id','name','avatar','slug'); 
             },
-        ])->where('slug',$id)->first(['id','name','images','type_cate','type_two','category','sku','discount','price','content','size','description','slug','preserve','status_variant','created_at','species','variant','cate_slug','type_slug','qty']);
+        ])->where('slug',$id)->first(['id','name','images','type_cate','type_two','category','sku','discount','price','content','size','description','slug','preserve','status_variant','created_at','species','variant','cate_slug','type_slug','qty','origin']);
         // session()->forget('viewoldpro'); 
       
         
-        $data['productlq'] = Product::where('category',$data['product']->category)->limit(8)->get(['id','category','name','status_variant','discount','price','images','slug','cate_slug','type_slug','description','origin']);
+        $data['productlq'] = Product::where('category',$data['product']->category)->limit(8)->get(['id','category','name','status_variant','discount','price','images','slug','cate_slug','type_slug','description']);
 
         return view('product.detail',$data);
     }
