@@ -254,7 +254,7 @@ class ProductController extends Controller
         // session()->forget('viewoldpro'); 
       
         
-        $data['productlq'] = Product::where('category',$data['product']->category)->limit(8)->get(['id','category','name','status_variant','discount','price','images','slug','cate_slug','type_slug','description']);
+        $data['productlq'] = Product::where('category',$data['product']->category)->limit(8)->get(['id','category','name','status_variant','discount','price','images','slug','cate_slug','type_slug','description','origin']);
 
         return view('product.detail',$data);
     }
