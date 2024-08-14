@@ -84,7 +84,7 @@
                                     <a class="img alignleft" href="{{route('detailBlog',['slug'=>$item->slug])}}" title="{{(languageName($item->title))}}">
                                     <img width="1024" height="683" src="{{$item->image}}" class="attachment-large size-large wp-post-image" alt="{{(languageName($item->title))}}" >                        </a>
                                     <h3><a href="{{route('detailBlog',['slug'=>$item->slug])}}" title="{{(languageName($item->title))}}">{{(languageName($item->title))}}</a></h3>
-                                    <span class="date-time"> <i class="icon-clock"></i> {{date_format($item->created_at,'d/m/Y')}}</span>                
+                                    <span class="date-time"> <i class="icon-clock"></i> {{date_format($item->updated_at,'d/m/Y')}}</span>                
                                  </li>
                                 @endforeach
                             </ul>
