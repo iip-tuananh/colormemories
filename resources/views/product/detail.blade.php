@@ -25,18 +25,18 @@ $img = json_decode($product->images);
    <div class="wtb-breadcrumb">
       <div class="container">
          <p id="breadcrumbs">
-			<span>
-				<span>
-					<a href="{{route('home')}}">Trang chủ</a>
-				</span> » 
-				<span>
-					<a href="">{{languageName($product->cate->name)}}</a>
-				</span> » 
-				<span class="breadcrumb_last" aria-current="page">
-					<strong>{{$product->name}}</strong>
-				</span>
-			</span>
-		</p>
+            <span>
+            <span>
+            <a href="{{route('home')}}">Trang chủ</a>
+            </span> » 
+            <span>
+            <a href="">{{languageName($product->cate->name)}}</a>
+            </span> » 
+            <span class="breadcrumb_last" aria-current="page">
+            <strong>{{$product->name}}</strong>
+            </span>
+            </span>
+         </p>
       </div>
    </div>
    <div class="container">
@@ -63,74 +63,70 @@ $img = json_decode($product->images);
                      <div class="wrap">
                         <h1 class="heading text-center"><span>{{$product->name}}</span></h1>
                         <div class="subheading text-center">
-                          {!!languageName($product->content)!!}
+                           {!!languageName($product->content)!!}
                         </div>
-                        
                         <div class="btn-Intro">
                            <a class="btn-package" href="{{$product->origin}}"> <span>BẢNG GIÁ <span> {{languageName($product->cate->name)}} </span></span></a>
-                           <a class="btn-mess" href="{{$setting->facebook}}"> <span>Messenger</span> </a></div>
+                           <a class="btn-mess" href="{{$setting->facebook}}"> <span>Messenger</span> </a>
+                        </div>
                      </div>
                   </div>
                </div>
-               
                <div class="nd-gt">
                   <div class="container">
                      <p style="text-align: center;">
                         <span style="font-size: 12pt;">
-                           <span style="color: #008000;">
-                              <i class="icon-phone"> Hãy liên hệ Color Memories ngay để được tư vấn miễn phí! Hotline: 
-                              <strong>
-                                 <a style="color: #008000; text-decoration: underline;" href="tel:{{$setting->phone1}}">{{$setting->phone1}}</a> / 
-                                 <a style="color: #008000; text-decoration: underline;" href="tel:{{$setting->phone2}}">{{$setting->phone2}} </a>
-                              </strong>
-                              </i>
-                           </span>| 
-                           <span style="color: #008000;">Fanpage: 
-                              <strong>
-                                 <a style="color: #008000; text-decoration: underline;" href="{{$setting->facebook}}" target="_blank" rel="noopener">Color Memories - Kỷ yếu sắc màu </a>
-                              </strong>
-                           </span>
+                        <span style="color: #008000;">
+                        <i class="icon-phone"> Hãy liên hệ Color Memories ngay để được tư vấn miễn phí! Hotline: 
+                        <strong>
+                        <a style="color: #008000; text-decoration: underline;" href="tel:{{$setting->phone1}}">{{$setting->phone1}}</a> / 
+                        <a style="color: #008000; text-decoration: underline;" href="tel:{{$setting->phone2}}">{{$setting->phone2}} </a>
+                        </strong>
+                        </i>
+                        </span>| 
+                        <span style="color: #008000;">Fanpage: 
+                        <strong>
+                        <a style="color: #008000; text-decoration: underline;" href="{{$setting->facebook}}" target="_blank" rel="noopener">Color Memories - Kỷ yếu sắc màu </a>
+                        </strong>
+                        </span>
                         </span>
                      </p>
                   </div>
                </div>
-			   <div id="gallery">
-				<div class="container">
-				   <h2 class="album-heading"><span>Xem toàn bộ Album "{{$product->name}} " tại đây</span></h2>
-				   <div class="over-photogrid_top">
-					  <div class="demo-gallery photoGrid clearfix">
-						@foreach ($img as $key => $item)
-						<a class="d-block gallery_img_current item" data-fancybox="gallery" href="{{$item}}" style="width: 221px; height: 221px;">
-							<img src="{{$item}}" alt="{{$product->name}}{{$key+1}}">
-						</a>
-						@endforeach
-						
-						</div>
-				   </div>
-				   <script>
-					  jQuery(document).ready(function($) {
-						  $(window).load(function() {
-							  // $(".loader").fadeOut("slow");
-							  // $('.photoGrid').css({
-							  // 	background: '#222',
-							  // 	border: '5px solid #222',
-							  // });
-							  $('.photoGrid').photoGrid({
-								  rowHeight: "300"
-							  });
-							  
-							  if ($('.photoGrid a.gallery_img_current').length > 0) {
-								  $('.photoGrid').wrapAll('<div class="over-photogrid_top">')
-							  } else {
-								  $('.photoGrid').addClass('hidediv')
-							  }
-						  });
-					  });
-				   </script>
-				</div>
-			 </div>
-              
-               
+               <div id="gallery">
+                  <div class="container">
+                     <h2 class="album-heading"><span>Xem toàn bộ Album "{{$product->name}} " tại đây</span></h2>
+                     <div class="over-photogrid_top">
+                        <div class="demo-gallery photoGrid clearfix">
+                           @foreach ($img as $key => $item)
+						   <a class="d-block gallery_img_current item" data-fancybox="gallery" href="{{$item}}">
+							<img src="{{$item}}" alt="{{$product->name}}{{$key+1}}"></a>
+
+                           @endforeach
+                        </div>
+                     </div>
+                     <script>
+                        jQuery(document).ready(function($) {
+                         $(window).load(function() {
+                          // $(".loader").fadeOut("slow");
+                          // $('.photoGrid').css({
+                          // 	background: '#222',
+                          // 	border: '5px solid #222',
+                          // });
+                          $('.photoGrid').photoGrid({
+                        	  rowHeight: "300"
+                          });
+                          
+                          if ($('.photoGrid a.gallery_img_current').length > 0) {
+                        	  $('.photoGrid').wrapAll('<div class="over-photogrid_top">')
+                          } else {
+                        	  $('.photoGrid').addClass('hidediv')
+                          }
+                         });
+                        });
+                     </script>
+                  </div>
+               </div>
                <script>
                   (function($){
                   	$(document).ready(function(){
@@ -188,5 +184,4 @@ $img = json_decode($product->images);
       </script>
    </div>
 </div>
-
 @endsection
