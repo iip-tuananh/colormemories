@@ -36,7 +36,7 @@
                       </section>
                       <!-- .single-header -->
                       <section class="single-post__meta">
-                         <span class="date-time"><i class="icon-clock"></i> {{date_format($blog_detail->created_at,'d/m/Y')}}</span>
+                         <span class="date-time"><i class="icon-clock"></i> {{date_format($blog_detail->updated_at,'d/m/Y')}}</span>
                       </section>
                       <section class="single-post__content">
                         {!!languageName($blog_detail->content)!!}
