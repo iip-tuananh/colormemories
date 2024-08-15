@@ -88,7 +88,7 @@
                               </div>
 
                               @foreach ($servicehome as $key => $item)
-                              <div id="tab339{{$key}}" class="tab-content {{$key == 0 ? 'show' : ''}} ">
+                              <div id="tab339{{$key}}" class="tab-content ">
                                  <div class="blog-shortcode style-slide">
                                     <div class="slick-carousel list-blogposts" data-items="3" data-items_lg="3" data-items_md="2" data-items_sm="2" data-items_mb="1" data-row="2" data-arrows="true" data-dots="true" data-infinite="true" data-autoplay="true" data-vertical="false">
                                        @foreach ($item->services as $item)
