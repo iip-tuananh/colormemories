@@ -82,6 +82,50 @@
                                              </div>
                                           </div>
                                        </article>
+                                       <article id="post-19017" class="element hentry post-item slide-item post-19017 service type-service status-publish has-post-thumbnail service_cat-ky-yeu-mien-bac">
+                                          <div class="post-info">
+                                             <div class="post-info__thumb"><a class="d-block img" href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}" style="background-image:url({{$item->imagehome}})" ></a></div>
+                                             <div class="post-info__content">
+                                                <div class="post-info__inner">
+                                                   <h3 class="post-info__title"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">{{languageName($item->name)}}</a></h3>
+                                                   <div class="post-info__link"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">Xem chi tiết</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </article>
+                                       <article id="post-19017" class="element hentry post-item slide-item post-19017 service type-service status-publish has-post-thumbnail service_cat-ky-yeu-mien-bac">
+                                          <div class="post-info">
+                                             <div class="post-info__thumb"><a class="d-block img" href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}" style="background-image:url({{$item->imagehome}})" ></a></div>
+                                             <div class="post-info__content">
+                                                <div class="post-info__inner">
+                                                   <h3 class="post-info__title"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">{{languageName($item->name)}}</a></h3>
+                                                   <div class="post-info__link"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">Xem chi tiết</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </article>
+                                       <article id="post-19017" class="element hentry post-item slide-item post-19017 service type-service status-publish has-post-thumbnail service_cat-ky-yeu-mien-bac">
+                                          <div class="post-info">
+                                             <div class="post-info__thumb"><a class="d-block img" href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}" style="background-image:url({{$item->imagehome}})" ></a></div>
+                                             <div class="post-info__content">
+                                                <div class="post-info__inner">
+                                                   <h3 class="post-info__title"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">{{languageName($item->name)}}</a></h3>
+                                                   <div class="post-info__link"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">Xem chi tiết</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </article>
+                                       <article id="post-19017" class="element hentry post-item slide-item post-19017 service type-service status-publish has-post-thumbnail service_cat-ky-yeu-mien-bac">
+                                          <div class="post-info">
+                                             <div class="post-info__thumb"><a class="d-block img" href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}" style="background-image:url({{$item->imagehome}})" ></a></div>
+                                             <div class="post-info__content">
+                                                <div class="post-info__inner">
+                                                   <h3 class="post-info__title"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">{{languageName($item->name)}}</a></h3>
+                                                   <div class="post-info__link"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">Xem chi tiết</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </article>
                                        @endforeach
                                     </div>
                                  </div>
