@@ -60,11 +60,33 @@
                         <p class="dv-description col-lg-6 offset-lg-3 text-center">{{$setting->webname}}</p>
                         <div class="tab-block">
                            <ul class="nav-pills">
+                              <li class="nav-item"><a class="nav-link active" title="" tab="#tab339115"> DANH MỤC DỊCH VỤ </a></li>
                               @foreach ($servicehome as $key => $item)
-                              <li class="nav-item"><a class="nav-link {{$key == 0 ? 'active' : ''}}" title="" tab="#tab339{{$key}}"> {{$item->name}} </a></li>
+                              <li class="nav-item"><a class="nav-link " title="" tab="#tab339{{$key}}"> {{$item->name}} </a></li>
                               @endforeach
                            </ul>
                            <div class="tabContent">
+                              <div id="tab339115" class="tab-content show ">
+                                 <div class="blog-shortcode style-slide">
+                                    <div class="slick-carousel list-blogposts" data-items="3" data-items_lg="3" data-items_md="2" data-items_sm="2" data-items_mb="1" data-row="2" data-arrows="true" data-dots="true" data-infinite="true" data-autoplay="true" data-vertical="false">
+                                       @foreach ($categoryhome as $item)
+                                       
+                                       <article id="post-19017" class="element hentry post-item slide-item post-19017 service type-service status-publish has-post-thumbnail service_cat-ky-yeu-mien-bac">
+                                          <div class="post-info">
+                                             <div class="post-info__thumb"><a class="d-block img" href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}" style="background-image:url({{$item->imagehome}})" ></a></div>
+                                             <div class="post-info__content">
+                                                <div class="post-info__inner">
+                                                   <h3 class="post-info__title"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">{{languageName($item->name)}}</a></h3>
+                                                   <div class="post-info__link"><a href="{{route('allListProCate',['danhmuc'=>$item->slug])}}" title="{{languageName($item->name)}}">Xem chi tiết</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </article>
+                                       @endforeach
+                                    </div>
+                                 </div>
+                              </div>
+
                               @foreach ($servicehome as $key => $item)
                               <div id="tab339{{$key}}" class="tab-content {{$key == 0 ? 'show' : ''}} ">
                                  <div class="blog-shortcode style-slide">
