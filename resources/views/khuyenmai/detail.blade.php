@@ -100,7 +100,7 @@
                               @foreach ($item->image as $key => $img)
                                  <div class="col-lg-12 col-sm-12">
                                     <div class="package-item">
-                                       <a class="d-block" data-fancybox="Package-Image" href="{{$img}}"><img src="{{$img}}" alt="{{($detail->name)}} (0{{$key}})" width="602" height="402"></a>
+                                       <a class="d-block" data-fancybox="Package-Image" href="{{$img}}"><img src="{{$img}}" alt="{{($detail->name)}} (0{{$key}})"></a>
                                     </div>
                                  </div>
                                  @endforeach
