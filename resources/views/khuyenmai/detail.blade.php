@@ -83,7 +83,8 @@
                      <div class="gallery-row">
                         @foreach ($img as $key => $item)
                         <div class="gallery-item item-50">
-                           <a class="d-block" data-fancybox="gallery" href="{{$item}}"><img src="{{$item}}" alt="{{($detail->name)}} ({{$key}})" width="602" height="402"></a></div>
+                           <a class="d-block" data-fancybox="gallery" href="{{$item}}"><img src="{{$item}}" alt="{{($detail->name)}} ({{$key}})" width="602" height="402"></a>
+                        </div>
                         @endforeach
                      </div>
                   </div>
@@ -95,13 +96,24 @@
                         <h2 class="package-heading"><span>{{$item->title}}</span></h2>
                         <div class="package-list">
                            <div class="row">
+                              @if (count($item->image) == 1)
                               @foreach ($item->image as $key => $img)
-                              <div class="col-lg-6 col-sm-6">
-                                 <div class="package-item">
-                                    <a class="d-block" data-fancybox="Package-Image" href="{{$img}}"><img src="{{$img}}" alt="{{($detail->name)}} (0{{$key}})" width="602" height="402"></a>
+                                 <div class="col-lg-12 col-sm-12">
+                                    <div class="package-item">
+                                       <a class="d-block" data-fancybox="Package-Image" href="{{$img}}"><img src="{{$img}}" alt="{{($detail->name)}} (0{{$key}})" width="602" height="402"></a>
+                                    </div>
                                  </div>
-                              </div>
-                              @endforeach
+                                 @endforeach
+                              @else 
+                                 @foreach ($item->image as $key => $img)
+                                 <div class="col-lg-6 col-sm-6">
+                                    <div class="package-item">
+                                       <a class="d-block" data-fancybox="Package-Image" href="{{$img}}"><img src="{{$img}}" alt="{{($detail->name)}} (0{{$key}})" width="602" height="402"></a>
+                                    </div>
+                                 </div>
+                                 @endforeach
+                              @endif
+                              
                            </div>
                         </div>
                      </div>
