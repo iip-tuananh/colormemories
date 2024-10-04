@@ -39,6 +39,7 @@
                   @endif
                </ul>
             </li>
+            <li id="menu-item-11528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11258"><a href="{{route('listVideo',['danhmuc'=>'video-ky-yeu'])}}">Video</a></li>
             @foreach ($servicehome as $item)
             <li class="menu-item menu-item-type-custom menu-item-object-custom {{count($item->services) > 0 ? 'menu-item-has-children' : ''}} menu-item-1116">
                <a href="{{route('serviceList',['slug'=>$item->slug])}}">{{$item->name}}</a>
